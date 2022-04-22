@@ -13,7 +13,7 @@ namespace ConsoleApp2
         private static DataSet dtSet;
         static void Main(string[] args)
         {
-            Console.WriteLine("Would you like setting the path (Create the cvs file in a folder) for csv outfile or let the file path by default : Type Y or N and tape enter...");
+            Console.WriteLine("Would you like setting the path (Create the csv file in a folder) for csv outfile or let the file path by default : Type Y or N and tape enter...");
             var response = Console.ReadLine();
             var response2 = "";
             if (response == "Y" || response == "y")
